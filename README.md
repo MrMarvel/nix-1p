@@ -484,11 +484,11 @@ These functions include various utilities for dealing with the data types in Nix
 them to familiarise yourself with what is available.
 
 ```nix
-{ pkgs ? import <nixpkgs> {} }:
+({ pkgs ? import <nixpkgs> {} }:
 
 with pkgs.lib; # bring contents pkgs.lib into scope
 
-strings.toUpper "hello"
+strings.toUpper "hello") {}
 
 # yields "HELLO"
 ```
