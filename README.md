@@ -491,7 +491,7 @@ with pkgs.lib; # bring contents pkgs.lib into scope
 strings.toUpper "hello") {}
 
 # yields "HELLO"
-# braces "()" are needed to distinct function from arguments "{}"
+# parentheses "()" are needed to distinguish the function from its arguments set "{}"
 ```
 
 ## `pkgs` itself
